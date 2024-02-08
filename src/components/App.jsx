@@ -7,6 +7,7 @@ import data from '../data.json';
 import friends from '../friends.json';
 import transactions from '../transactions.json';
 
+
 const divStyle = {
   height: '100vh',
   display: 'flex',
