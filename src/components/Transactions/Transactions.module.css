@@ -19,4 +19,9 @@
 .tableRow {
     height: 32px;
     text-align: center;
+    background-color: #DDD;
+}
+
+.tableRow:nth-child(even){
+    background-color: #EEE;
 }

@@ -14,11 +14,11 @@ export const TransactionHistory = ({ transactions }) => {
         {transactions.map(({ id, type, amount, currency }, idx) => (
           <tr
             className={css.tableRow}
-            style={
-              idx % 2
-                ? { backgroundColor: '#EEE' }
-                : { backgroundColor: '#DDD' }
-            }
+            // style={
+            //   idx % 2
+            //     ? { backgroundColor: '#EEE' }
+            //     : { backgroundColor: '#DDD' }
+            // }
             key={id}
           >
             <td
