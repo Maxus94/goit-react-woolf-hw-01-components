@@ -1,0 +1,28 @@
+.item {
+    height: 80px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    column-gap: 16px;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.avatar {
+    border-radius: 12px;
+    background-color: rgb(79, 80, 82);
+    width: 70px;
+    height: 70px;
+}
+
+.name {
+    font-size: 32px;
+}

@@ -1,13 +1,11 @@
 import css from './Profile.module.css';
 
 export const Profile = ({
-  user: {
-    username,
-    location,
-    avatar,
-    tag,
-    stats: { followers, views, likes },
-  },
+  username,
+  location,
+  avatar,
+  tag,
+  stats: { followers, views, likes },
 }) => {
   return (
     <div className={css.profile}>
